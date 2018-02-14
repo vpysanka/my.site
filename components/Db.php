@@ -6,8 +6,8 @@ class Db {
         $paramsPath = CONFIG.'db.php';
         $params = include($paramsPath);
 
-        $db = new PDO("{$params['connection']};{$params['port']};{$params['dbname']};
-                       {$params['user']};{$params['password']}");
+        $db = new PDO("pgsql:host={$params['connection']}; port={$params['port']}; dbname={$params['dbname']};
+                       user={$params['user']}; password={$params['password']}");
 
         return $db;
     }
