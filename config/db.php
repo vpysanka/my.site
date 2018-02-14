@@ -3,13 +3,13 @@
  * Данные для подключения к БД
  */
 
-if ($_SERVER['SERVER_NAME'] == "ec2-54-221-234-62.compute-1.amazonaws.com") {
+if ($_SERVER['SERVER_NAME'] == "ec2-54-235-64-195.compute-1.amazonaws.com") {
         return array(
-                'connection' => 'ec2-54-221-234-62.compute-1.amazonaws.com',
+                'connection' => 'ec2-54-235-64-195.compute-1.amazonaws.com',
                 'port' => '5432',
-                'dbname' => 'd1dbuh400jo68l',
-                'user' => 'lrbadyygelioag',
-                'password' => '299386d6d1e7abdec3c22d0d5230dfdd6d280e5892fa1acd6b177b4c5563b26a',
+                'dbname' => 'd8l01i9od33l4l',
+                'user' => 'kereitbhlcnuyj',
+                'password' => '0b58557d3b71fb376bd2ed954678a2ff86390d9813f8819c7c41ca797ebe65c2',
                 'options' => [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]
         );
 } else {
