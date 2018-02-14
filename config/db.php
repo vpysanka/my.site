@@ -3,7 +3,7 @@
  * Данные для подключения к БД
  */
 
-if ($_SERVER['SERVER_NAME'] == "ec2-54-235-64-195.compute-1.amazonaws.com") {
+if ($_SERVER['SERVER_NAME'] == "mvc-shop.herokuapp.com") {
         return array(
                 'connection' => 'ec2-54-235-64-195.compute-1.amazonaws.com',
                 'port' => '5432',
